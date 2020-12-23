@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/local/Cellar/node/15.0.1/bin/node /usr/local/bin/yarn add nodemon express mongoose dotenv morgan joi joi-objectid lodash
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.0.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: Client network socket disconnected before secure TLS connection was established
+      at connResetException (node:internal/errors:621:14)
+      at TLSSocket.onConnectEnd (node:_tls_wrap:1544:19)
+      at TLSSocket.emit (node:events:339:22)
+      at endReadableNT (node:internal/streams/readable:1289:12)
+      at processTicksAndRejections (node:internal/process/task_queues:80:21)
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
